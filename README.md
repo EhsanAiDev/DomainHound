@@ -27,13 +27,13 @@ Make sure you have Python 3 installed.
 
 ---
 ## 🚀 Usage Example:
-wordlist(keywords.txt):
+### wordlist(keywords.txt):
 ```
 admin
 test
 dev
 ```
-Subdomains list (subdomains.txt):
+### Subdomains list (subdomains.txt):
 ```
 admin.example.com
 dev-api.example.com
@@ -41,6 +41,7 @@ login.example.com
 example.com
 ```
 
+### Command:
 ```bash
 python3 domainhound.py -w keywords.txt -sd subdomains.txt
 ```
