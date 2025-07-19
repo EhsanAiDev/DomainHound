@@ -42,6 +42,8 @@ example.com
 ```
 
 ### Command:
+those both commands filters all subdomains in subdomains.txt that contain any word from keywords.txt
+
 ```bash
 python3 domainhound.py -w keywords.txt -sd subdomains.txt
 ```
@@ -50,6 +52,7 @@ or
 python3 domainhound.py -w keywords.txt -sd subdomains.txt -o filtered.txt
 ```
 
+If -o is provided, the output will be saved to the given path and If -o does not used, matches will be printed directly to the terminal with color formatting.
 
 ### Arguments:
 
