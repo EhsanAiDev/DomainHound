@@ -31,3 +31,11 @@ Make sure you have Python 3 installed.
 python3 domainhound.py -w keywords.txt -sd subdomains.txt -o filtered.txt
 ```
 
+### Arguments:
+
+| Argument | Description |
+|----------|-------------|
+| `-w`     | Path to the wordlist (keywords) used for filtering |
+| `-sd`    | Path to the subdomain list you want to filter |
+| `-o`     | (Optional) Path to save the output |
+
