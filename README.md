@@ -42,6 +42,7 @@ example.com
 
 ### Command:
 **Note:** Make sure you have Python 3 installed.
+
 those both commands filters all subdomains in subdomains.txt that contain any word from keywords.txt
 
 ```bash
