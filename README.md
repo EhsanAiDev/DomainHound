@@ -26,10 +26,29 @@ cd DomainHound
 Make sure you have Python 3 installed.
 
 ---
-## 🚀 Usage
+## 🚀 Usage Example:
+wordlist(keywords.txt):
+```
+admin
+test
+dev
+```
+Subdomains list (subdomains.txt):
+```
+admin.example.com
+dev-api.example.com
+login.example.com
+example.com
+```
+
+```bash
+python3 domainhound.py -w keywords.txt -sd subdomains.txt
+```
+or
 ```bash
 python3 domainhound.py -w keywords.txt -sd subdomains.txt -o filtered.txt
 ```
+
 
 ### Arguments:
 
