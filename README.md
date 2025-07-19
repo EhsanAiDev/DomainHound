@@ -1,5 +1,5 @@
 # DomainHound 🐺
-<img src="images/script_example.png" width="600" height="400">
+<img src="images/script_example.png" width="620" height="420">
 
 **DomainHound** is a simple yet powerful Python tool designed to filter subdomains based on a custom wordlist.  
 It helps bug bounty hunters, penetration testers, and security researchers quickly locate subdomains of interest from massive domain lists.
