@@ -22,3 +22,12 @@ Clone the repository:
 ```bash
 git clone https://github.com/yourusername/DomainHound.git
 cd DomainHound
+```
+Make sure you have Python 3 installed.
+
+---
+## 🚀 Usage
+```bash
+python3 domainhound.py -w keywords.txt -sd subdomains.txt -o filtered.txt
+```
+
