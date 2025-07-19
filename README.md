@@ -23,10 +23,9 @@ Clone the repository:
 git clone https://github.com/yourusername/DomainHound.git
 cd DomainHound
 ```
-Make sure you have Python 3 installed.
-
 ---
 ## 🚀 Usage Example:
+you need two wordlists to run this script
 ### wordlist(keywords.txt):
 ```
 admin
@@ -42,6 +41,7 @@ example.com
 ```
 
 ### Command:
+**Note:** Make sure you have Python 3 installed.
 those both commands filters all subdomains in subdomains.txt that contain any word from keywords.txt
 
 ```bash
